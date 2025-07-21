@@ -30,4 +30,8 @@ public class TelefonoServiceImplementation implements TelefonoService{
 	public void eliminar (Long id) {
 		telefonoRepository.deleteById(id);
 	}
+	@Override
+	public Telefono buscarPorPersona(Long id) {
+		return telefonoRepository.findbyPersona(id);
+	}
 }
