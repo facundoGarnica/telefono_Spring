@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import telefono.Models.Persona;
 import telefono.Service.PersonaService;
-
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/persona")
 public class PersonaController {

@@ -23,7 +23,7 @@ public class Persona {
 	@JsonManagedReference("persona-telefono")
 	private List<Telefono> telefonos;
 	public Persona() {
-		
+		this.telefonos = new ArrayList<>();
 	}
 	public Long getId() {
 		return this.id;
