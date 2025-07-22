@@ -24,9 +24,14 @@ public class TelefonoController  {
 	public List<Telefono> obtenerTodos(){
 		return telefonoService.obtenerTodos();
 	}
-	@GetMapping("/buscarporid")
-	public Telefono buscarPorId(Long id) {
-		return telefonoService.buscarPorId(id);
+	@GetMapping("/buscarporpersona/{id}")
+	public List<Telefono> buscarPorPersona(@PathVariable Long id) {
+		return telefonoService.buscarPorPersona(id);
+	}
+
+	@GetMapping("/buscarporid/{id}")
+	public Telefono buscarPorId(@PathVariable Long id) {
+	    return telefonoService.buscarPorId(id);
 	}
 	@PostMapping("/guardar")
 	public Telefono guardar(@RequestBody Telefono telefono) {

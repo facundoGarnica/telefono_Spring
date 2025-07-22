@@ -22,8 +22,8 @@ public class PersonaController {
     }
 
 
-    @GetMapping("/buscarporid")
-    public Persona buscarPorId(@RequestParam Long id) {
+    @GetMapping("/buscarporid/{id}")
+    public Persona buscarPorId(@PathVariable Long id) {
         return personaService.buscarPorId(id);
     }
 
