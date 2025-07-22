@@ -1,0 +1,16 @@
+telefono\Models\Contacto.class
+telefono\Repository\PersonaRepository.class
+telefono\Controller\PersonaController.class
+telefono\Repository\ContactoRepository.class
+telefono\TelefonoApplication.class
+telefono\Service_Implementation\TelefonoServiceImplementation.class
+telefono\Controller\ContactoController.class
+telefono\Service_Implementation\ContactoServiceImplementation.class
+telefono\Service\PersonaService.class
+telefono\Service\ContactoService.class
+telefono\Service\TelefonoService.class
+telefono\Service_Implementation\PersonaServiceImplementation.class
+telefono\Models\Persona.class
+telefono\Repository\TelefonoRepository.class
+telefono\Controller\TelefonoController.class
+telefono\Models\Telefono.class
