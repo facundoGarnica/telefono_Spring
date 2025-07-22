@@ -15,7 +15,7 @@ public class PersonaController {
     @Autowired
     private PersonaService personaService;
 
-//s
+//ss
     @GetMapping("/todos")
     public List<Persona> obtenerTodos() {
         return personaService.obtenerTodos();
